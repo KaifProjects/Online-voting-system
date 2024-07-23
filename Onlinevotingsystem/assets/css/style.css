@@ -1,0 +1,61 @@
+/* Text Colors */
+.text-white {
+    color: #fff;
+}
+
+.text-black {
+    color: #000;
+}
+
+.text-green {
+    color: #67C232;
+}
+
+/* Background Colors */
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-green {
+    background-color: #67C232;
+}
+
+/* Candidate Photo */
+.candidate_photo {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #67C232;
+    border-radius: 50%; /* Circular shape */
+    display: inline-block;
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+/* Additional Styling */
+.rounded-border {
+    border-radius: 10px; /* Rounded corners */
+}
+
+.shadow-effect {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Hover Effects */
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.hover-shadow {
+    transition: box-shadow 0.3s ease;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
